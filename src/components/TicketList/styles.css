@@ -1,0 +1,26 @@
+.ticket-list-container {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    gap: 20px;
+    padding: 0 20px;
+  }
+  
+  .ticket-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 60%;
+  }
+  
+  @media (max-width: 999px) {
+    .ticket-list {
+      width: 100%;
+    }
+  
+    .ticket-list-container {
+      flex-direction: column;
+      padding: 0 10px;
+    }
+  }
+  

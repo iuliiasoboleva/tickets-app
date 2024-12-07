@@ -1,0 +1,38 @@
+.filter {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    width: 30%;
+    height: fit-content;
+  }
+  
+  .filter-group {
+    margin-bottom: 20px;
+  }
+  
+  .currency-buttons button {
+    margin-right: 5px;
+    padding: 5px 10px;
+    border: none;
+    background: #f5f5f5;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .currency-buttons .active {
+    background: #007bff;
+    color: white;
+  }
+  
+  label {
+    display: block;
+    margin: 5px 0;
+  }
+  
+  @media (max-width: 999px) {
+    .filter {
+        width: 100%;
+      }
+  }
+  
